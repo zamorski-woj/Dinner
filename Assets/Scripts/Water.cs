@@ -20,7 +20,7 @@ public class Water : MonoBehaviour
     void Start()
     {
         Find();
-
+        Application.runInBackground = true;
     }
 
     void Find()

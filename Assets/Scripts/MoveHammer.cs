@@ -25,7 +25,7 @@ public class MoveHammer : MonoBehaviour
     {
         if (Input.GetAxis("Vertical") == 0)
         {
-            rb.velocity = new Vector3(rb.velocity.x * 0.97f * Time.deltaTime, rb.velocity.y * 0.97f * Time.deltaTime, rb.velocity.z * 0.97f * Time.deltaTime);
+            rb.linearVelocity = new Vector3(rb.linearVelocity.x * 0.97f * Time.deltaTime, rb.linearVelocity.y * 0.97f * Time.deltaTime, rb.linearVelocity.z * 0.97f * Time.deltaTime);
 
         }
 
